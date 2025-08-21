@@ -1,5 +1,5 @@
-ENV = True # or True
-INTERACTIVE_MODE = False # or True
+ENV = False # or True
+INTERACTIVE_MODE = True # or True
 WARP_CLIENT_ID = "a3d539df-91fc-4ee3-91ff-c49dca629022"
 SEND_LOG = False # or True
 HIDE_WC_ID = True # or False
