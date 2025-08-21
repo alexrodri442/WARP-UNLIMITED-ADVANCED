@@ -5,11 +5,9 @@ services:
     image: ghcr.io/thecaduceus/warp-unlimited-docker:okteto
     container_name: warp-unlimited-okteto
     environment:
-      - WARP_CLIENT_ID=${WARP_CLIENT_ID}
-      - SEND_LOG=${SEND_LOG}
-      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
-      - CHAT_ID=${CHAT_ID}
-      - HIDE_WC_ID=${HIDE_WC_ID}
+      - WARP_CLIENT_ID='a3d539df-91fc-4ee3-91ff-c49dca629022'
+      - SEND_LOG=False
+
     ports:
       - 8080:8080
     restart: unless-stopped
